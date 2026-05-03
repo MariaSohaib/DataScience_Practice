@@ -9,3 +9,9 @@ plt.plot(y,x,marker='o') #draw lines with marks, marks can be emphasize by some 
 plt.show()
 plt.plot(x,y,'o:y')   # shortcut string notation parameter to specify the marker
 plt.show()
+plt.plot(x,color='r',linestyle='dotted')    #plotting multiple lines
+plt.plot(y,color='m',linestyle='dashed')    #plotting multiple lines
+plt.title("My First Graph", loc='left')
+plt.xlabel('x-axis')   #labeling axis
+plt.ylabel('y-axis')    #labeling axis
+plt.show()
