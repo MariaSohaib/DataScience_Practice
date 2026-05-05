@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv('Customers.csv')
+df=pd.read_csv('CSV Files/Customers.csv')
 print(df.head(10))   #Showing first 10 rows of dataset
 print(df.info())        #Showing datatypes and other info
 print(df.describe())    #Gives no. of counts,mean,std,min,max etc(statistical analysis)
