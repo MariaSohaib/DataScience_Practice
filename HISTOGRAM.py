@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 x=np.random.randint(1,30,size=15)
-plt.hist(x)
+plt.hist(x)   #shows histogram
 plt.show()
-plt.pie(x)
+plt.pie(x)    #shows pie graph
 plt.show()
