@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model
 x=np.array([2,4,6,8,10,12,14,16,18,20,22,24,26,28,30])
-y=x**2+np.random.randint(2,40,size=len(x))
+y=x+2+np.random.randint(2,40,size=len(x))
 plt.scatter(x,y)
 plt.xlabel('Independent value')
 plt.ylabel('Dependent value')
