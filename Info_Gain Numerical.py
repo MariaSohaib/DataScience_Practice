@@ -34,10 +34,6 @@ for i,row in df.iterrows():
             count_fail_yes+=1
         else:
             count_pass_yes+=1
-prob_yes_fail=count_fail_yes/(count_pass_yes+count_fail_yes)
-prob_yes_pass=count_pass_yes/(count_pass_yes+count_fail_yes)
-pron_no_fail=count_fail_no/(count_fail_no+count_pass_no)
-pron_no_pass=count_pass_no/(count_fail_no+count_pass_no)
 group_yes=probabilities(count_fail_yes,count_pass_yes)
 group_no=probabilities(count_fail_no,count_pass_no)
 E_before=probabilities(prob_of_yes,prob_of_no)
