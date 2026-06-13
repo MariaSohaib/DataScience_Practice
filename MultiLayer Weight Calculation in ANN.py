@@ -3,39 +3,23 @@ def Activation_Function(x):
     Sol=1/(1+math.exp(-x))
     return Sol
 def Input_layer(x1,x2,x3):
-    w1=1
-    w2=2
-    w3=3
-    w4=4
-    w5=5
-    w6=6
+    w1,w2,w3,w4,w5,w6=1,2,3,4,5,6
     calc1=(x1*w1)+(x2*w3)+(x3*w5)
     calc2=(x1*w2)+(x2*w4)+(x3*w6)
     return calc1,calc2
 def first_hidden_layer(x4,x5):
-    w7=1
-    w8=2
-    w9=3
-    w10=4
-    w11=5
-    w12=6
+    w7,w8,w9,w10,w11,w12=1,2,3,4,5,6
     calc3=(x4*w7)+(x5*w10) 
     calc4=(x4*w8)+(x5*w11)
     calc5=(x4*w9)+(x5*w12)
     return calc3,calc4,calc5
 def sec_hidden_layer(x6,x7,x8):
-    w13=1
-    w14=2
-    w15=3
-    w16=4
-    w17=5
-    w18=6
+    w13,w14,w15,w16,w17,w18=1,2,3,4,5,6
     calc6=(x6*w13)+(x7*w15)+(x8*w17)
     calc7=(x6*w14)+(x7*w16)+(x8*w18)
     return calc6,calc7
 def last_layer(x9,x10):
-    w19=1
-    w20=2
+    w19,w20=1,2
     bias=0.6
     calc=(x9*w19)+(x10*w20)+bias
     return calc
