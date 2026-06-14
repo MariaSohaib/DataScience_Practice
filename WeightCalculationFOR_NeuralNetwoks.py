@@ -1,8 +1,6 @@
 import math
 def Weight(x1,x2,x3):
-    w1=0.9
-    w2=0.5
-    w3=0.6
+    w1=0.9,w2=0.5,w3=0.6
     bias=0.75
     calc=(x1*w1)+(x2*w2)+(x3*w3)+bias
     return calc
